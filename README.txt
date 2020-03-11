@@ -1,4 +1,4 @@
-	Compute the bayesian information criteria
+	Compute the HZ inner and outer orbits
 
 	Parameters:
 	-----------
