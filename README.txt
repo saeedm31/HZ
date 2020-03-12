@@ -1,4 +1,4 @@
-	Compute the HZ inner and outer orbits
+	Compute the Habitable Zone (HZ) inner and outer orbits
 
 	Parameters:
 	-----------
