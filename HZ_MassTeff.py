@@ -58,4 +58,4 @@ def HZ_InOut_MassTeff(M,T_star): # Mass [Sun], Teff [k]
     conservative = [d3, d4]
     optimistic = [d1, d5]
 
-    return d1, d2, d3, d4, d5, conservative, optimistic, np.round(L,2) # AU, L [Sun]
+    return d1, d2, d3, d4, d5, conservative, optimistic, np.round(Lum,2) # AU, L [Sun]

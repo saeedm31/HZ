@@ -1,3 +1,6 @@
+
+import numpy as np
+
 def HZ_in_out_2013(T_eff,Lum):
 	"""
 	
