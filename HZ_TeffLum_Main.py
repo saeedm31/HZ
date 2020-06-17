@@ -34,8 +34,8 @@ def HZ_in_out_2013(T_eff,Lum):
 	s_eff3 = S3 + a3*T_star + b3*T_star**2 + c3*T_star**3 + d3*T_star**4
 	s_eff4 = S4 + a4*T_star + b4*T_star**2 + c4*T_star**3 + d4*T_star**4
 	s_eff5 = S5 + a5*T_star + b5*T_star**2 + c5*T_star**3 + d5*T_star**4
-	d1, d2 ,d3, d4, d5 = (Lum/s_eff1)**(0.5), (Lum/s_eff2)**(0.5), (Lum/s_eff3)**(0.5),\
-	 (Lum/s_eff4)**(0.5), (Lum/s_eff5)**(0.5)
+	d1, d2 ,d3, d4, d5 = np.round((Lum/s_eff1)**(0.5),2), np.round((Lum/s_eff2)**(0.5),2), np.round((Lum/s_eff3)**(0.5),2),\
+	 np.round((Lum/s_eff4)**(0.5),2), np.round((Lum/s_eff5)**(0.5),2)
 	conservative = [d3, d4]
 	optimistic = [d1, d5]
 	return d1, d2, d3, d4, d5, conservative, optimistic
