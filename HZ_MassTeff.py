@@ -1,9 +1,8 @@
 
 import numpy as np
+from scipy import interpolate
 
 # Function 2: (rough estimation)
-
-from scipy import interpolate
 
 def HZ_InOut_MassTeff(M,T_star): # Mass [Sun], Teff [k]
 
