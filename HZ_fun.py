@@ -1,12 +1,13 @@
 def HZ_in_out_2013(T_eff,Lum):
 	"""
-	Compute the bayesian information criteria
-
+	
+	HABITABLE ZONES AROUND MAIN-SEQUENCE STARS ! 
+	
 	Parameters:
 	-----------
 
 	T_eff: float;
-	    effective temperatures
+	    Effective temperatures
 	    Unit [Sun]
 
 	Lum: float;
